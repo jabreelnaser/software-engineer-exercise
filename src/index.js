@@ -1,6 +1,10 @@
-// Implement the body of the function below & ensure it passes the provided unit tests by running npm run test.
+
+// Return the sum of an array
 const sum = (arrayOfNumbers) => {
-  throw new Error('Not Implemented.');
+	// Loop through arrayOfNumbers and add them together
+	var outSum = 0;
+	arrayOfNumbers.forEach(element => outSum += element);
+	return outSum;
 };
 
 module.exports = {
